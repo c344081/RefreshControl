@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		122501F31D4C9137007FD54F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 122501F21D4C9137007FD54F /* main.m */; };
+		122501F61D4C9137007FD54F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 122501F51D4C9137007FD54F /* AppDelegate.m */; };
+		122501F91D4C9137007FD54F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 122501F81D4C9137007FD54F /* ViewController.m */; };
+		122501FC1D4C9137007FD54F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122501FA1D4C9137007FD54F /* Main.storyboard */; };
+		122501FE1D4C9137007FD54F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 122501FD1D4C9137007FD54F /* Assets.xcassets */; };
+		122502011D4C9137007FD54F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122501FF1D4C9137007FD54F /* LaunchScreen.storyboard */; };
+		1225020E1D4C98CF007FD54F /* TARefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1225020D1D4C98CF007FD54F /* TARefreshConst.m */; };
+		122502161D4C998F007FD54F /* UIScrollView+TARefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 122502151D4C998F007FD54F /* UIScrollView+TARefreshControl.m */; };
+		122502191D4C9A57007FD54F /* TARefreshControlHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 122502181D4C9A57007FD54F /* TARefreshControlHeader.m */; };
+		1225021C1D4C9A66007FD54F /* TARefreshControlFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1225021B1D4C9A66007FD54F /* TARefreshControlFooter.m */; };
+		1225021F1D4C9DB1007FD54F /* TARefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1225021E1D4C9DB1007FD54F /* TARefreshBaseView.m */; };
+		122502221D4C9F84007FD54F /* UIView+TARefreshEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 122502211D4C9F84007FD54F /* UIView+TARefreshEx.m */; };
+		1244C9201F99E71B00983778 /* Fsm.m in Sources */ = {isa = PBXBuildFile; fileRef = 1244C91C1F99E71B00983778 /* Fsm.m */; };
+		1244C9211F99E71B00983778 /* RefreshControlState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1244C91D1F99E71B00983778 /* RefreshControlState.m */; };
+		12EC0C541F95D8A300680CEA /* TARefreshDisposable.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EC0C531F95D8A300680CEA /* TARefreshDisposable.m */; };
+		E58F4A51145775ED0CBE09E4 /* libPods-TARefreshControlDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD8F3C81D074FE9C82B96CE /* libPods-TARefreshControlDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00E9A2B41ACEB50129755E27 /* Pods-TARefreshControlDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TARefreshControlDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TARefreshControlDemo/Pods-TARefreshControlDemo.release.xcconfig"; sourceTree = "<group>"; };
+		122501EE1D4C9137007FD54F /* TARefreshControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TARefreshControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		122501F21D4C9137007FD54F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		122501F41D4C9137007FD54F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		122501F51D4C9137007FD54F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		122501F71D4C9137007FD54F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		122501F81D4C9137007FD54F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		122501FB1D4C9137007FD54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		122501FD1D4C9137007FD54F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		122502001D4C9137007FD54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		122502021D4C9137007FD54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		122502091D4C9167007FD54F /* TARefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TARefreshControl.h; sourceTree = "<group>"; };
+		1225020C1D4C98CF007FD54F /* TARefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TARefreshConst.h; sourceTree = "<group>"; };
+		1225020D1D4C98CF007FD54F /* TARefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TARefreshConst.m; sourceTree = "<group>"; };
+		122502141D4C998F007FD54F /* UIScrollView+TARefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TARefreshControl.h"; sourceTree = "<group>"; };
+		122502151D4C998F007FD54F /* UIScrollView+TARefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TARefreshControl.m"; sourceTree = "<group>"; };
+		122502171D4C9A57007FD54F /* TARefreshControlHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TARefreshControlHeader.h; sourceTree = "<group>"; };
+		122502181D4C9A57007FD54F /* TARefreshControlHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TARefreshControlHeader.m; sourceTree = "<group>"; };
+		1225021A1D4C9A66007FD54F /* TARefreshControlFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TARefreshControlFooter.h; sourceTree = "<group>"; };
+		1225021B1D4C9A66007FD54F /* TARefreshControlFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TARefreshControlFooter.m; sourceTree = "<group>"; };
+		1225021D1D4C9DB1007FD54F /* TARefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TARefreshBaseView.h; sourceTree = "<group>"; };
+		1225021E1D4C9DB1007FD54F /* TARefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TARefreshBaseView.m; sourceTree = "<group>"; };
+		122502201D4C9F84007FD54F /* UIView+TARefreshEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TARefreshEx.h"; sourceTree = "<group>"; };
+		122502211D4C9F84007FD54F /* UIView+TARefreshEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TARefreshEx.m"; sourceTree = "<group>"; };
+		1244C91C1F99E71B00983778 /* Fsm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fsm.m; sourceTree = "<group>"; };
+		1244C91D1F99E71B00983778 /* RefreshControlState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshControlState.m; sourceTree = "<group>"; };
+		1244C91E1F99E71B00983778 /* Fsm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fsm.h; sourceTree = "<group>"; };
+		1244C91F1F99E71B00983778 /* RefreshControlState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshControlState.h; sourceTree = "<group>"; };
+		12EC0C4F1F95D1FE00680CEA /* TARefreshBaseViewPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TARefreshBaseViewPrivate.h; sourceTree = "<group>"; };
+		12EC0C521F95D8A300680CEA /* TARefreshDisposable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TARefreshDisposable.h; sourceTree = "<group>"; };
+		12EC0C531F95D8A300680CEA /* TARefreshDisposable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TARefreshDisposable.m; sourceTree = "<group>"; };
+		6336F83244E8129359B95872 /* Pods-TARefreshControlDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TARefreshControlDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TARefreshControlDemo/Pods-TARefreshControlDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FCD8F3C81D074FE9C82B96CE /* libPods-TARefreshControlDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TARefreshControlDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		122501EB1D4C9137007FD54F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58F4A51145775ED0CBE09E4 /* libPods-TARefreshControlDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F680305970EC1C056BEB35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6336F83244E8129359B95872 /* Pods-TARefreshControlDemo.debug.xcconfig */,
+				00E9A2B41ACEB50129755E27 /* Pods-TARefreshControlDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		122501E51D4C9137007FD54F = {
+			isa = PBXGroup;
+			children = (
+				122501F01D4C9137007FD54F /* TARefreshControlDemo */,
+				122501EF1D4C9137007FD54F /* Products */,
+				09F680305970EC1C056BEB35 /* Pods */,
+				AEC151D5DFB9ECF4FEAB8A24 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		122501EF1D4C9137007FD54F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				122501EE1D4C9137007FD54F /* TARefreshControlDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		122501F01D4C9137007FD54F /* TARefreshControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				122502081D4C914E007FD54F /* TARefreshControl */,
+				122501F41D4C9137007FD54F /* AppDelegate.h */,
+				122501F51D4C9137007FD54F /* AppDelegate.m */,
+				122501F71D4C9137007FD54F /* ViewController.h */,
+				122501F81D4C9137007FD54F /* ViewController.m */,
+				122501FA1D4C9137007FD54F /* Main.storyboard */,
+				122501FD1D4C9137007FD54F /* Assets.xcassets */,
+				122501FF1D4C9137007FD54F /* LaunchScreen.storyboard */,
+				122502021D4C9137007FD54F /* Info.plist */,
+				122501F11D4C9137007FD54F /* Supporting Files */,
+			);
+			path = TARefreshControlDemo;
+			sourceTree = "<group>";
+		};
+		122501F11D4C9137007FD54F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				122501F21D4C9137007FD54F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		122502081D4C914E007FD54F /* TARefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				1244C91B1F99E70B00983778 /* state */,
+				122502091D4C9167007FD54F /* TARefreshControl.h */,
+				1225021D1D4C9DB1007FD54F /* TARefreshBaseView.h */,
+				1225021E1D4C9DB1007FD54F /* TARefreshBaseView.m */,
+				12EC0C4F1F95D1FE00680CEA /* TARefreshBaseViewPrivate.h */,
+				122502171D4C9A57007FD54F /* TARefreshControlHeader.h */,
+				122502181D4C9A57007FD54F /* TARefreshControlHeader.m */,
+				1225021A1D4C9A66007FD54F /* TARefreshControlFooter.h */,
+				1225021B1D4C9A66007FD54F /* TARefreshControlFooter.m */,
+				122502141D4C998F007FD54F /* UIScrollView+TARefreshControl.h */,
+				122502151D4C998F007FD54F /* UIScrollView+TARefreshControl.m */,
+				12EC0C521F95D8A300680CEA /* TARefreshDisposable.h */,
+				12EC0C531F95D8A300680CEA /* TARefreshDisposable.m */,
+				1225020C1D4C98CF007FD54F /* TARefreshConst.h */,
+				1225020D1D4C98CF007FD54F /* TARefreshConst.m */,
+				122502201D4C9F84007FD54F /* UIView+TARefreshEx.h */,
+				122502211D4C9F84007FD54F /* UIView+TARefreshEx.m */,
+			);
+			path = TARefreshControl;
+			sourceTree = SOURCE_ROOT;
+		};
+		1244C91B1F99E70B00983778 /* state */ = {
+			isa = PBXGroup;
+			children = (
+				1244C91F1F99E71B00983778 /* RefreshControlState.h */,
+				1244C91D1F99E71B00983778 /* RefreshControlState.m */,
+				1244C91E1F99E71B00983778 /* Fsm.h */,
+				1244C91C1F99E71B00983778 /* Fsm.m */,
+			);
+			path = state;
+			sourceTree = SOURCE_ROOT;
+		};
+		AEC151D5DFB9ECF4FEAB8A24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCD8F3C81D074FE9C82B96CE /* libPods-TARefreshControlDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		122501ED1D4C9137007FD54F /* TARefreshControlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 122502051D4C9137007FD54F /* Build configuration list for PBXNativeTarget "TARefreshControlDemo" */;
+			buildPhases = (
+				8FA2FA01525432B6D77F4AC1 /* [CP] Check Pods Manifest.lock */,
+				122501EA1D4C9137007FD54F /* Sources */,
+				122501EB1D4C9137007FD54F /* Frameworks */,
+				122501EC1D4C9137007FD54F /* Resources */,
+				E223948D797C98BE27DED68A /* [CP] Embed Pods Frameworks */,
+				1692D461075B86D69B9AED6C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TARefreshControlDemo;
+			productName = TARefreshControlDemo;
+			productReference = 122501EE1D4C9137007FD54F /* TARefreshControlDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		122501E61D4C9137007FD54F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = zuoxunhudong;
+				TargetAttributes = {
+					122501ED1D4C9137007FD54F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M9E2M4YJUQ;
+					};
+				};
+			};
+			buildConfigurationList = 122501E91D4C9137007FD54F /* Build configuration list for PBXProject "TARefreshControlDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 122501E51D4C9137007FD54F;
+			productRefGroup = 122501EF1D4C9137007FD54F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				122501ED1D4C9137007FD54F /* TARefreshControlDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		122501EC1D4C9137007FD54F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122502011D4C9137007FD54F /* LaunchScreen.storyboard in Resources */,
+				122501FE1D4C9137007FD54F /* Assets.xcassets in Resources */,
+				122501FC1D4C9137007FD54F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1692D461075B86D69B9AED6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TARefreshControlDemo/Pods-TARefreshControlDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FA2FA01525432B6D77F4AC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TARefreshControlDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E223948D797C98BE27DED68A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TARefreshControlDemo/Pods-TARefreshControlDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		122501EA1D4C9137007FD54F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1244C9201F99E71B00983778 /* Fsm.m in Sources */,
+				1225021F1D4C9DB1007FD54F /* TARefreshBaseView.m in Sources */,
+				122501F91D4C9137007FD54F /* ViewController.m in Sources */,
+				12EC0C541F95D8A300680CEA /* TARefreshDisposable.m in Sources */,
+				122502191D4C9A57007FD54F /* TARefreshControlHeader.m in Sources */,
+				122502221D4C9F84007FD54F /* UIView+TARefreshEx.m in Sources */,
+				122501F61D4C9137007FD54F /* AppDelegate.m in Sources */,
+				122502161D4C998F007FD54F /* UIScrollView+TARefreshControl.m in Sources */,
+				122501F31D4C9137007FD54F /* main.m in Sources */,
+				1244C9211F99E71B00983778 /* RefreshControlState.m in Sources */,
+				1225020E1D4C98CF007FD54F /* TARefreshConst.m in Sources */,
+				1225021C1D4C9A66007FD54F /* TARefreshControlFooter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		122501FA1D4C9137007FD54F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				122501FB1D4C9137007FD54F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		122501FF1D4C9137007FD54F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				122502001D4C9137007FD54F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		122502031D4C9137007FD54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		122502041D4C9137007FD54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		122502061D4C9137007FD54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6336F83244E8129359B95872 /* Pods-TARefreshControlDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TARefreshControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuoxunhudong.TARefreshControlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		122502071D4C9137007FD54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E9A2B41ACEB50129755E27 /* Pods-TARefreshControlDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TARefreshControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuoxunhudong.TARefreshControlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		122501E91D4C9137007FD54F /* Build configuration list for PBXProject "TARefreshControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122502031D4C9137007FD54F /* Debug */,
+				122502041D4C9137007FD54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		122502051D4C9137007FD54F /* Build configuration list for PBXNativeTarget "TARefreshControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122502061D4C9137007FD54F /* Debug */,
+				122502071D4C9137007FD54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 122501E61D4C9137007FD54F /* Project object */;
+}
